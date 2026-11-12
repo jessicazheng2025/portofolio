@@ -1,0 +1,77 @@
+const translations = {
+  id: {
+    "nav.about":"Tentang Saya","nav.projects":"Project","nav.skills":"Skills","nav.contact":"Kontak","nav.letsTalk":"Let's talk",
+    "hero.greeting":"HALO, SENANG BERTEMU.","hero.role":"Lulusan Teknik Informatika","hero.location":"Pekanbaru, Indonesia","hero.intro":"Berawal dari rasa ingin tahu, saya terus belajar dan menemukan hal baru melalui teknologi serta pengalaman.","hero.projects":"Lihat Project","hero.contact":"Hubungi Saya",
+    "about.kicker":"PERJALANAN SAYA","about.title":"A little about<br><em>my journey.</em>","about.lead":"Ketertarikan saya pada teknologi informasi tumbuh sejak masa SMK.","about.p1":"Saat menempuh jurusan Teknik Komputer dan Jaringan, saya mulai mengenal lebih dekat dunia teknologi. Ketertarikan itu kemudian saya lanjutkan melalui pendidikan D4 Teknik Informatika di Politeknik Caltex Riau.","about.p2":"Sepanjang perjalanan tersebut, proyek, organisasi, dan pengalaman kerja memberi saya kesempatan untuk mengenal berbagai hal di bidang IT, mencoba hal baru, serta mengasah kemampuan. Saya menikmati proses belajar, bertukar ide, dan bekerja sama untuk menyelesaikan sesuatu.","about.sign":"Still learning, always growing.","about.educationLabel":"PENDIDIKAN","about.educationValue":"D4 Teknik Informatika · 2021—2025","about.focusLabel":"LATAR BELAKANG","about.backgroundValue":"Teknik Komputer & Jaringan","about.gpaLabel":"IPK","about.gpaValue":"Lulus dengan hasil akademik","about.timeline":"PENDIDIKAN & PENGALAMAN","about.education":"Education","about.experience":"Experience","about.organization":"Organization","about.ciscoOrg":"Menyiapkan materi pembelajaran dan pelatihan rutin untuk mengembangkan keterampilan jaringan Cisco anggota.","about.sncOrg":"Steering Committee · Memantau persiapan dan pelaksanaan kegiatan serta memberikan arahan dan evaluasi kepada divisi.","about.imacOrg":"Steering Committee & Workshop Trainer · Mengawal persiapan kegiatan dan mengajar dasar jaringan kepada 43 peserta dari 7 sekolah.","about.degree":"D4 Teknik Informatika","about.vocational":"SMK · Teknik Komputer dan Jaringan","about.present":"SEKARANG","about.freelance":"Membuat website company profile menggunakan WordPress sesuai kebutuhan klien.","about.intern":"Website Designer Intern · WordPress & Elementor",
+    "projects.kicker":"YANG PERNAH SAYA KERJAKAN","projects.title":"Selected <em>projects.</em>","projects.aside":"Beberapa pengalaman dan proses yang membentuk perjalanan saya di bidang teknologi.","projects.graduation":"FINAL PROJECT","projects.sawitcare":"Mengembangkan model klasifikasi kesehatan pohon kelapa sawit menggunakan YOLOv11 berdasarkan citra udara dari drone, serta membuat prototipe web Python untuk menjalankan model dan menampilkan hasil deteksi.","projects.accuracy":"Accuracy · evaluasi model","projects.integration":"SYSTEM INTEGRATION","projects.sisawit":"Mengintegrasikan model deteksi kesehatan tanaman dan model prediksi hasil panen ke dalam sistem tim menggunakan Flask, termasuk menjalankan model serta menampilkan hasilnya pada dashboard.","projects.competition":"COMPETITION PROJECT","projects.sawitxplain":"Menambahkan pendekatan Explainable AI (XAI) pada fitur deteksi kesehatan kelapa sawit agar pengguna dapat melihat penjelasan pendukung di balik hasil klasifikasi.","projects.award":"Juara 2 · Subkategori Inovasi Dampak dan Kebermanfaatan","projects.awardDetail":"Kategori Cipta Inovasi Bidang TIK — KMIPN VII 2025","projects.teamProject":"TEAM PROJECT","projects.sawitinsight":"Menyesuaikan kode fitur analisis geospasial yang telah tersedia dan mengintegrasikan analisis NDVI dari Google Earth Engine ke dalam sistem berbasis Python dan Flask milik tim.",
+    "skills.kicker":"PERANGKAT & KEMAMPUAN","skills.title":"Tools I <em>work with.</em>","skills.programming":"Programming & Frameworks","skills.platforms":"Platforms & Tools","skills.design":"Design & Productivity","skills.languages":"LANGUAGES","skills.native":"Native","skills.intermediate":"Intermediate","skills.daily":"Percakapan sehari-hari",
+    "recognition.kicker":"PENGAKUAN & PEMBELAJARAN","recognition.title":"Achievements <em>& certifications.</em>","recognition.aside":"Penghargaan dan pelatihan yang menjadi bagian dari proses belajar.","recognition.certification":"CERTIFICATION","recognition.bnsp":"Sertifikasi kompetensi Programmer","recognition.certificate":"COMPLETION CERTIFICATE","recognition.dicoding":"Sertifikat penyelesaian pembelajaran Python","recognition.training":"LANGUAGE TRAINING","recognition.mandarin":"Mandarin Training Program","recognition.mandarinDetail":"Pelatihan bahasa Mandarin · Sertifikat penyelesaian","recognition.competition":"COMPETITION","recognition.cprom":"Top 11","recognition.test":"LANGUAGE TEST",
+    "contact.kicker":"MARI TERHUBUNG","contact.title":"Terhubung Lebih<br><em>Lanjut.</em>","contact.copy":"Terbuka untuk percakapan, kolaborasi, dan kesempatan baru. Jangan ragu untuk menyapa.","contact.location":"Based in Pekanbaru, Indonesia","footer.quote":"Every experience shapes the next step."
+  },
+  en: {
+    "nav.about":"About Me","nav.projects":"Projects","nav.skills":"Skills","nav.contact":"Contact","nav.letsTalk":"Let's talk",
+    "hero.greeting":"HELLO, NICE TO MEET YOU.","hero.role":"Informatics Engineering Graduate","hero.location":"Pekanbaru, Indonesia","hero.intro":"Driven by curiosity, I keep learning and discovering new things through technology and experience.","hero.projects":"Explore Projects","hero.contact":"Get in Touch",
+    "about.kicker":"MY JOURNEY","about.title":"A little about<br><em>my journey.</em>","about.lead":"My interest in information technology began during vocational high school.","about.p1":"While studying Computer and Network Engineering, I started exploring the world of technology more closely. I continued that interest through a Bachelor's Degree in Applied Informatics Engineering at Politeknik Caltex Riau.","about.p2":"Along the way, projects, organizations, and work experiences have introduced me to different areas of IT, given me room to try new things, and helped me develop my skills. I enjoy learning, exchanging ideas, and working with others to make things happen.","about.sign":"Still learning, always growing.","about.educationLabel":"EDUCATION","about.educationValue":"Applied Bachelor's in Informatics Engineering · 2021—2025","about.focusLabel":"BACKGROUND","about.backgroundValue":"Computer & Network Engineering","about.gpaLabel":"GPA","about.gpaValue":"Graduated with academic distinction","about.timeline":"EDUCATION & EXPERIENCE","about.education":"Education","about.experience":"Experience","about.degree":"Applied Bachelor's in Informatics Engineering","about.vocational":"Vocational High School · Computer and Network Engineering","about.present":"PRESENT","about.organization":"Organization","about.ciscoOrg":"Prepared learning materials and conducted regular training to develop members’ Cisco networking skills.","about.sncOrg":"Steering Committee · Monitored event preparation and execution, providing guidance and evaluation to divisions.","about.imacOrg":"Steering Committee & Workshop Trainer · Supported event preparation and taught networking fundamentals to 43 participants from 7 schools.","about.freelance":"Building company profile websites with WordPress based on client needs.","about.intern":"Website Designer Intern · WordPress & Elementor",
+    "projects.kicker":"A SELECTION OF MY WORK","projects.title":"Selected <em>projects.</em>","projects.aside":"A few experiences and processes that have shaped my journey in technology.","projects.graduation":"FINAL PROJECT","projects.sawitcare":"Developed an oil palm health classification model using YOLOv11 on aerial drone imagery, and built a Python web prototype to run the model and display detection results.","projects.accuracy":"Accuracy · model evaluation","projects.integration":"SYSTEM INTEGRATION","projects.sisawit":"Integrated plant health detection and harvest yield prediction models into the team's system using Flask, including model execution and displaying results on the dashboard.","projects.competition":"COMPETITION PROJECT","projects.sawitxplain":"Added an Explainable AI (XAI) approach to the oil palm health detection feature, allowing users to view supporting explanations behind classification results.","projects.award":"2nd Place · Impact and Usefulness Innovation Subcategory","projects.awardDetail":"ICT Innovation Category — KMIPN VII 2025","projects.teamProject":"TEAM PROJECT","projects.sawitinsight":"Adapted existing geospatial analysis feature code and integrated NDVI analysis from Google Earth Engine into the team's Python and Flask-based system.",
+    "skills.kicker":"TOOLS & CAPABILITIES","skills.title":"Tools I <em>work with.</em>","skills.programming":"Programming & Frameworks","skills.platforms":"Platforms & Tools","skills.design":"Design & Productivity","skills.languages":"LANGUAGES","skills.native":"Native","skills.intermediate":"Intermediate","skills.daily":"Daily conversation",
+    "recognition.kicker":"RECOGNITION & LEARNING","recognition.title":"Achievements <em>& certifications.</em>","recognition.aside":"Awards and training that are part of my learning journey.","recognition.certification":"CERTIFICATION","recognition.bnsp":"Programmer competency certification","recognition.certificate":"COMPLETION CERTIFICATE","recognition.dicoding":"Python course completion certificate","recognition.training":"LANGUAGE TRAINING","recognition.mandarin":"Mandarin Training Program","recognition.mandarinDetail":"Mandarin language training · Certificate of completion","recognition.competition":"COMPETITION","recognition.cprom":"Top 11","recognition.test":"LANGUAGE TEST",
+    "contact.kicker":"LET'S CONNECT","contact.title":"Get in<br><em>Touch.</em>","contact.copy":"Open to conversations, collaborations, and new opportunities. Feel free to say hello.","contact.location":"Based in Pekanbaru, Indonesia","footer.quote":"Every experience shapes the next step."
+  },
+  zh: {
+    "nav.about":"关于我","nav.projects":"项目","nav.skills":"技能","nav.contact":"联系","nav.letsTalk":"联系我",
+    "hero.greeting":"你好，很高兴认识你。","hero.role":"信息技术专业毕业生","hero.location":"印度尼西亚，北干巴鲁","hero.intro":"从好奇心出发，我持续学习，并在技术与实践经历中探索新的可能。","hero.projects":"查看项目","hero.contact":"与我联系",
+    "about.kicker":"我的成长历程","about.title":"关于我的<br><em>成长旅程。</em>","about.lead":"我对信息技术的兴趣始于职业高中时期。","about.p1":"在计算机网络技术专业学习期间，我开始更加深入地接触科技领域。之后，我继续在廖内卡尔泰克斯理工学院攻读信息技术应用本科（D4）专业。","about.p2":"在这段学习与成长过程中，项目、组织活动和工作经历让我有机会接触不同的 IT 领域、尝试新事物并不断提升能力。我喜欢学习新知识、交流想法，也乐于与他人合作完成目标。","about.sign":"持续学习，不断成长。","about.educationLabel":"教育背景","about.educationValue":"信息技术应用本科 · 2021—2025","about.focusLabel":"专业背景","about.backgroundValue":"计算机网络技术","about.gpaLabel":"平均绩点","about.gpaValue":"以优异成绩毕业","about.timeline":"教育与工作经历","about.education":"教育背景","about.experience":"工作经历","about.degree":"信息技术专业（D4 应用本科）","about.vocational":"职业高中 · 计算机网络技术专业","about.present":"至今","about.organization":"组织经历","about.ciscoOrg":"准备学习资料并定期开展培训，帮助成员提升 Cisco 网络技术能力。","about.sncOrg":"指导委员会 · 跟进活动筹备与执行进度，并为各部门提供指导和评估。","about.imacOrg":"指导委员会及工作坊讲师 · 参与活动筹备，并为来自 7 所学校的 43 名学员讲授网络基础知识。","about.freelance":"根据客户需求，使用 WordPress 制作企业介绍网站。","about.intern":"网站设计实习生 · WordPress 与 Elementor",
+    "projects.kicker":"项目经历","projects.title":"精选<em>项目。</em>","projects.aside":"这些项目与实践经历记录了我在科技领域的学习与成长。","projects.graduation":"毕业设计","projects.sawitcare":"基于无人机航拍图像，使用 YOLOv11 开发油棕树健康状况分类模型，并制作 Python 网页原型，用于运行模型和展示检测结果。","projects.accuracy":"准确率 · 模型评估","projects.integration":"系统集成","projects.sisawit":"使用 Flask 将植物健康检测模型和收成产量预测模型集成至团队系统，包括模型运行及在仪表板中展示结果。","projects.competition":"竞赛项目","projects.sawitxplain":"在油棕树健康检测功能中加入可解释人工智能（XAI），让用户能够查看分类结果背后的辅助说明。","projects.award":"第二名 · 影响力与实用价值创新子类别","projects.awardDetail":"信息技术领域创新作品类别 — 第七届 KMIPN 2025","projects.teamProject":"团队项目","projects.sawitinsight":"调整现有的地理空间分析功能代码，并将 Google Earth Engine 的 NDVI 分析集成至团队的 Python 与 Flask 系统。",
+    "skills.kicker":"工具与能力","skills.title":"我使用的<em>工具。</em>","skills.programming":"编程语言与框架","skills.platforms":"平台与工具","skills.design":"设计与办公工具","skills.languages":"语言能力","skills.native":"母语","skills.intermediate":"中级","skills.daily":"日常交流",
+    "recognition.kicker":"荣誉与学习经历","recognition.title":"荣誉与<em>证书。</em>","recognition.aside":"记录学习过程中的荣誉、培训与认证。","recognition.certification":"专业认证","recognition.bnsp":"程序员职业能力认证","recognition.certificate":"结业证书","recognition.dicoding":"Python 学习课程结业证书","recognition.training":"语言培训","recognition.mandarin":"中文培训课程","recognition.mandarinDetail":"中文培训 · 结业证书","recognition.competition":"竞赛","recognition.cprom":"前 11 名","recognition.test":"语言考试",
+    "contact.kicker":"保持联系","contact.title":"期待与您<br><em>联系。</em>","contact.copy":"欢迎交流、合作以及探索新的机会，期待收到你的消息。","contact.location":"现居印度尼西亚北干巴鲁","footer.quote":"每一段经历，都塑造着下一步。"
+  }
+};
+
+const applyLanguage = (lang) => {
+  const dict = translations[lang] || translations.id;
+  document.documentElement.lang = lang === "zh" ? "zh-CN" : lang;
+  document.querySelectorAll("[data-i18n]").forEach((node) => {
+    const key = node.dataset.i18n;
+    if (dict[key] !== undefined) node.innerHTML = dict[key];
+  });
+  document.querySelectorAll(".lang-btn").forEach((btn) => {
+    const active = btn.dataset.lang === lang;
+    btn.classList.toggle("active", active);
+    btn.setAttribute("aria-pressed", String(active));
+  });
+};
+document.querySelectorAll(".lang-btn").forEach((btn) => btn.addEventListener("click", () => applyLanguage(btn.dataset.lang)));
+
+const menuToggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".main-nav");
+menuToggle.addEventListener("click", () => {
+  const open = nav.classList.toggle("open");
+  menuToggle.setAttribute("aria-expanded", String(open));
+});
+nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+  nav.classList.remove("open");
+  menuToggle.setAttribute("aria-expanded", "false");
+}));
+
+const topButton = document.querySelector(".back-to-top");
+const onScroll = () => topButton.classList.toggle("visible", window.scrollY > 500);
+window.addEventListener("scroll", onScroll, {passive:true});
+onScroll();
+topButton.addEventListener("click", () => window.scrollTo({top:0,behavior:"smooth"}));
+
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if ("IntersectionObserver" in window && !reduceMotion) {
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        obs.unobserve(entry.target);
+      }
+    });
+  }, {threshold:0.12, rootMargin:"0px 0px -35px 0px"});
+  document.querySelectorAll(".section-heading,.about-story,.about-facts,.timeline,.project-card,.skill-group,.recognition-item,.contact-section .contact-copy,.contact-links").forEach(el => {
+    el.classList.add("reveal");
+    observer.observe(el);
+  });
+}
